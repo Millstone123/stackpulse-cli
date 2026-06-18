@@ -1,0 +1,19 @@
+{
+  "name": "stackpulse",
+  "version": "1.0.0",
+  "description": "CLI tool for auditing Node.js project dependency health and compatibility.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "bin": {
+    "stackpulse": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "semver": "^7.6.0"
+  },
+  "license": "MIT"
+}
